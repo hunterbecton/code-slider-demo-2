@@ -1,0 +1,84 @@
+/* Base styles for the code block */
+code[class*="language-"],
+pre[class*="language-"] {
+  color: #d6deeb;
+  background-color: #171722;
+}
+
+/* Selection styles */
+code[class*="language-"]::-moz-selection,
+pre[class*="language-"]::-moz-selection,
+code[class*="language-"] ::-moz-selection,
+pre[class*="language-"] ::-moz-selection,
+code[class*="language-"]::selection,
+pre[class*="language-"]::selection,
+code[class*="language-"] ::selection,
+pre[class*="language-"] ::selection {
+  background: #3d3d57;
+}
+
+/* Token styles */
+.token.comment,
+.token.prolog,
+.token.cdata {
+  color: rgb(99, 119, 119);
+}
+
+.token.punctuation {
+  color: rgb(196, 120, 255);
+}
+
+.token.namespace {
+  color: rgb(63, 164, 255);
+}
+
+.token.deleted {
+  color: rgba(255, 50, 198, 0.56);
+}
+
+.token.symbol,
+.token.property,
+.token.tag,
+.token.operator,
+.token.keyword,
+.token.attr-name,
+.token.inserted,
+.token.string,
+.token.url,
+.token.entity,
+.language-css .token.string,
+.style .token.string {
+  color: rgb(52, 211, 153);
+}
+
+.token.boolean {
+  color: rgb(255, 50, 198);
+}
+
+.token.number {
+  color: rgb(255, 172, 96);
+}
+
+.token.constant,
+.token.function,
+.token.builtin,
+.token.char {
+  color: rgb(63, 164, 255);
+}
+
+.token.selector,
+.token.doctype {
+  color: rgb(196, 120, 255);
+}
+
+.token.class-name,
+.token.atrule,
+.token.attr-value {
+  color: rgb(255, 172, 96);
+}
+
+.token.regex,
+.token.important,
+.token.variable {
+  color: rgba(255, 255, 255, 0.7);
+}

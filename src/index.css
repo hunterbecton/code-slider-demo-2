@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.fluid-editor-container {
+  container-type: inline-size;
+}
+
+.fluid-editor-padding {
+  padding: 2.0833cqw;
+}
+
+.fluid-editor-text {
+  font-size: 2.0833cqw;
+  line-height: 1.5;
+}
